@@ -1,0 +1,41 @@
+.option {
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+body {
+    width: 220px;
+    padding: 16px;
+    font-family: system-ui, sans-serif;
+    font-size: 14px;
+    background-color: var(--color-toolbar, #ffffff);
+    color: var(--color-toolbar-text, #000000);
+}
+
+h3 {
+    margin: 0 0 12px 0;
+    font-size: 15px;
+}
+
+#save {
+    margin-top: 12px;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    background-color: var(--color-toolbar-text, #007bff);
+    color: var(--color-toolbar, #ffffff);
+}
+#save:hover {
+    opacity: 0.9;
+}
+.info {
+    cursor: help;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.info:hover {
+    opacity: 1;
+}

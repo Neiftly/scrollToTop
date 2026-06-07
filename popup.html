@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Scroll to Top Settings</title>
+        <script src="popup.js"></script>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <h3>Scroll to Top Settings</h3>
+
+        <div class="option">
+            <input type="radio" name="style" id="simple" value="simple">
+            <label for="simple">Simple</label>
+            <span class="tooltip"  title="Inherits the page's font and colors to blend in">ℹ</span>
+        </div>
+
+        <div class="option">
+            <input type="radio" name="style" id="copy" value="copy">
+            <label for="copy">Copy</label>
+            <span class="tooltip"  title="Attempts to copy the style of an existing button on the page">ℹ</span>
+        </div>
+
+        <div class="option">
+            <input type="radio" name="style" id="custom" value="custom" checked>
+            <label for="custom">Custom</label>
+            <span class="tooltip"  title="Fixed style that looks the same on all sites">ℹ</span>
+        </div>
+
+        <button id="save">Save</button>
+    </body>
+</html>

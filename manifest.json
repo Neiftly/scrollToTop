@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Return to Top",
+    "version": "1.0",
+    "description": "Adds a return to top button on every webpage.",
+    "permissions": ["storage", "activeTab", "tabs"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Scroll to Top Settings"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "css": ["content.css"]
+        }
+    ]
+}
